@@ -18,24 +18,13 @@
             padding: 0;
         }
         
-        .container {
-            max-width: 980px; /* 模拟 GitHub 的内容宽度 */
-            margin: 30px auto;
-            padding: 45px;
-            background-color: #fff;
-            border: 1px solid #e1e4e8; /* 边框 */
-            border-radius: 6px; /* 圆角 */
-            box-shadow: 0 3px 12px rgba(27,31,35,.04); /* 轻微阴影 */
-            box-sizing: border-box; /* 避免 padding 导致宽度溢出 */
-        }
-
-        /* 覆盖或调整 github-markdown-css 某些样式，使其更接近最新 GitHub 风格 */
+        /* 移除 .container 样式，让 markdown-body 直接作为主要内容区域 */
         .markdown-body {
             box-sizing: border-box;
             min-width: 200px;
-            max-width: 980px;
-            margin: 0 auto;
-            padding: 0; /* 这里的 padding 已经在 .container 中处理 */
+            max-width: 980px; /* 模拟 GitHub 的内容宽度 */
+            margin: 30px auto; /* 保持内容居中并有上下边距 */
+            padding: 45px; /* 保持内容内边距 */
         }
         
         /* 调整标题间距，更符合 GitHub */
@@ -44,7 +33,14 @@
             margin-bottom: 16px;
             font-weight: 600;
             line-height: 1.25;
-            border-bottom: none; /* 移除 h1/h2 默认下划线，让 github-markdown-css 处理 */
+            /* 移除 h1/h2 默认下划线，让 github-markdown-css 处理 */
+            border-bottom: none; 
+        }
+
+        /* 为所有标题添加下划线，作为分块作用的横线 */
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+            padding-bottom: 0.3em; /* 给横线留出一些空间 */
+            border-bottom: 1px solid #eaecef; /* 细灰色横线 */
         }
 
         .markdown-body h1 { font-size: 2em; }
@@ -157,10 +153,8 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    <div class="container">
-        <article class="markdown-body">
-            {{ content }}
-        </article>
-    </div>
+    <article class="markdown-body">
+        {{ content }}
+    </article>
 </body>
 </html>
