@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+# Publications
+
 ## Journal Paper
 
 **Integrated Assessment of Environmental, Economic, and Social Impacts of Waste Plastic Recycling in Japan** (in Japanese)
