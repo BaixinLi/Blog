@@ -9,16 +9,15 @@ title: Welcome to my blog!
 
 # Welcome to My homnepage
 
-This is the homepage of my blog, powered by GitHub Pages.
+This is the homepage of Baixin, powered by GitHub Pages.
 
-## [about](about.md)
+## [About Me](about.md)
 
 
-## [Publications]
+## [Publications](publications.md)
 
 ## Presentations
-- zheshiyige  talks/talk1 [link](talks/talk1.md)
-- talk1 [link](talk1.md)
+TBA
 
 ## Recent Posts
 - [Blog Post 1](posts/blog1.md)
