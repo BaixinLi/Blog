@@ -7,15 +7,19 @@ title: Welcome to my blog!
 
 
 
-# Welcome to My Blog
+# Welcome to My homnepage
 
 This is the homepage of my blog, powered by GitHub Pages.
 
-## header
+## [about](about.md)
 
-## header
 
+## [Publications]
+
+## Presentations
+- zheshiyige  talks/talk1 [link](talks/talk1.md)
+- talk1 [link](talk1.md)
 
 ## Recent Posts
-- [Blog Post 1](_posts/2025-06-06-blog1.md)
-- [Blog Post 2](_posts/2025-06-07-blog2.md)
+- [Blog Post 1](posts/blog1.md)
+- [Blog Post 2](posts/2025-06-07-blog2.md)
