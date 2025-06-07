@@ -5,7 +5,17 @@ title: Welcome to my blog!
 # layout: home
 ---
 
-## header
+
+
+# Welcome to My Blog
+
+This is the homepage of my blog, powered by GitHub Pages.
 
 ## header
 
+## header
+
+
+## Recent Posts
+- [Blog Post 1](_posts/2025-06-06-blog1.md)
+- [Blog Post 2](_posts/2025-06-07-blog2.md)
